@@ -151,3 +151,9 @@ class LinkedList {
         }
     }
 }
+
+const myList = new LinkedList();
+myList.add("Node 1"); // Adds to the end of the list
+myList.add("Node 2"); // Continues adding to the end
+myList.addFirst("Node 0"); // Adds to the beginning of the list
+myList.dumpList();
